@@ -19,6 +19,7 @@
 `npm run start`
 #### Add package
 `npm install package-name`
+for third party packages sometimes for TS you need also install types(also it usually written in package docs or suggested by IDE) using command that looks like this: `npm install --save-dev @types/package-name`
 #### Add your package from github that was built on top of the template:
 `npm install github:username/repo`
 #### Remove package
